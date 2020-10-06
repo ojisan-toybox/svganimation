@@ -1,0 +1,32 @@
+{
+  "name": "svganimation",
+  "version": "1.0.0",
+  "description": "svg animation の練習",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/svganimation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/svganimation/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/svganimation#readme",
+  "dependencies": {
+    "goober": "^2.0.6",
+    "preact": "^10.5.4"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "prettier": "^2.1.2",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
