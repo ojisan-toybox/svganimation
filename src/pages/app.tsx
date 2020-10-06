@@ -17,8 +17,8 @@ const Component = (props: Props) => (
   <div className={props.className}>
     <svg
       className="menu"
-      width="250px"
-      height="250px"
+      width="250"
+      height="250"
       viewBox="0 0 500 500"
       onClick={() => {
         props.setState(!props.state);
@@ -45,7 +45,7 @@ const StyledComponent = styled(Component)<ContainerProps>`
     .border {
       fill: ${(props) => (props.state ? "#890a0c" : "rgb(0, 0, 0)")};
       transition: 200ms all ease;
-      transform-origin: 250px 250px;
+      transform-origin: center;
     }
     .border1 {
       transform: ${(props) =>
